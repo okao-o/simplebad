@@ -6,7 +6,17 @@ export default class GameScene extends Phaser.Scene {
 
     create() {
 
-        // 後で対戦画面を作っていく
+        // 仮の文字
+        this.add.text(
+            500,
+            300,
+            "Game Scene",
+            {
+                fontSize: "48px",
+                color: "#ffffff"
+            }
+        );
+
     }
 
 }
